@@ -1,0 +1,26 @@
+/* 1rem=10pxにする */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-width: 960px;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+/* ボールド書体についてはEdgeに対応するため別途指定する？ */
+strong, b, mark, b, .type-bold {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  font-weight: bold;
+}
+
+/* デフォルトのボールド指定を解除 */
+h1, h2, h3, h4, h5, h6, h7 {
+  font-weight: normal;
+}
+
+img {
+  vertical-align: bottom;
+}
